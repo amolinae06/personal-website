@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-	color: red;
+	color: white;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold; 
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-	color: brown;
+	color: white;
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -100,7 +100,7 @@ p {
 	}
 
 	.link:hover {
-		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+		text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #a1ce00, 0 0 40px #c0e200, 0 0 50px #e99700, 0 0 60px #e68a00, 0 0 70px #e66f00;
 	}
 
 /*index*/
