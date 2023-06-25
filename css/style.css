@@ -71,6 +71,7 @@ p {
 	margin-right: auto;
 }
 
+
 /*desktop navbar*/
 	.topnavbar {
 		text-align: left;
@@ -83,9 +84,8 @@ p {
 	}
 
 	.logo {
-		border-radius: 50%;
-		height: 58px;
-		width: 58px;
+		height: 50px;
+		width: 50px;
 	}
 
 	.menu {
@@ -105,21 +105,13 @@ p {
 
 /*index*/
 .profile {
-	animation: 10s rotate linear infinite;
+	height: 350px;
+	width: 350px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	transition: transform .8s ease-in-out;
-	max-width: 20%;
 	border-radius: 50%;
 	border: 5px solid ;
-  }
-
-.profile:hover {
-    -webkit-transform : rotate(360deg) scale(1.2); /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform     : rotate(360deg) scale(1.2); /* IE 9 */
-    transform         : rotate(360deg) scale(1.2); /* Firefox 16+, IE 10+, Opera */
-    position: relative;
   }
 
 .contactinfo {
@@ -129,7 +121,7 @@ p {
 }
 
 .icon {
-		transition: transform 250ms ease-in-out 200ms;
+		transition: transform 200ms ease-in-out 200ms;
 }
 
 .icon:hover {
