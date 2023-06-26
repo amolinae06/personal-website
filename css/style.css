@@ -12,7 +12,6 @@
 
 body {
 	color: white;
-	filter: blur(100%);
 	background: rgb(5, 5, 5);
 }
 
@@ -71,6 +70,11 @@ p {
 	margin-right: auto;
 }
 
+hr {
+	border-top: 2px solid rgb(255, 255, 255);
+
+}
+
 
 /*desktop navbar*/
 	.topnavbar {
@@ -105,8 +109,8 @@ p {
 
 /*index*/
 .profile {
-	height: 350px;
-	width: 350px;
+	height: 325px;
+	width: 325px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -149,4 +153,65 @@ p {
 	.hidden {
 		transition: none;
 	}
+}
+
+/*blog*/
+.card {
+	height: 300px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #e99700;
+	padding: 25px;
+	border-radius: 10%;
+	border-color: white;
+	border: 3px solid ;
+}
+
+.card h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-family: 'Merriweather Sans', sans-serif;
+	text-align: center;
+
+}
+
+.card h5 {
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	text-align: left;
+
+}
+
+.card h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: left;
+
+}
+
+.card p {
+	margin-top: 10px;
+	margin-bottom: 18px;
+	line-height: 20px;
+	text-align: left;
+	font-size: 18px;
+}
+
+.card a {
+	font-family: 'Merriweather Sans', sans-serif;
+	background: linear-gradient(-90deg, #000000, #3d3d3d, #661b1b, #860000);
+	background-size: 300%;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_title 10s ease-in-out infinite;
+	-moz-animation: animated_title 10s ease-in-out infinite;
+	-webkit-animation: animated_title 10s ease-in-out infinite;
 }
