@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&family=Merriweather+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Mulish&family=Noto+Sans+JP&display=swap');
+
 @keyframes animated_title {
 	0% { background-position: 0px 50%; }
 	50% { background-position: 100% 50%; }
@@ -35,7 +43,7 @@ h2 {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold; 
-	font-size: x-large;
+	font-size: 48px;
 
 }
 
@@ -205,7 +213,7 @@ hr {
 
 .card a {
 	font-family: 'Merriweather Sans', sans-serif;
-	background: linear-gradient(-90deg, #000000, #3d3d3d, #661b1b, #860000);
+	background: linear-gradient(125deg, #2f00ff, #008cff, #d12929, #e00101);
 	background-size: 300%;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -214,4 +222,35 @@ hr {
 	animation: animated_title 10s ease-in-out infinite;
 	-moz-animation: animated_title 10s ease-in-out infinite;
 	-webkit-animation: animated_title 10s ease-in-out infinite;
+}
+
+/*blog content*/
+.blogcontenttop h2 {
+	margin-bottom: 24px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.blogcontenttop p {
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: 8px;
+	margin-bottom: 24px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.blogcontent h3 {
+	max-width: 800px; 
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 24px;
+	margin-bottom: 14px;
+	text-align: left;
+	font-size: 24px;
+}
+
+.blogcontent p {
+	font-family: 'Inter', sans-serif;
+	margin-bottom: 24px;
+	text-align: left;
+	font-size: 16px;
 }
