@@ -166,12 +166,12 @@ hr {
 /*blog*/
 .card {
 	height: 300px;
-	width: 250px;
+	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #e99700;
 	padding: 25px;
-	border-radius: 10%;
+	border-radius: 2%;
 	border-color: white;
 	border: 3px solid ;
 }
@@ -208,7 +208,8 @@ hr {
 	margin-bottom: 18px;
 	line-height: 20px;
 	text-align: left;
-	font-size: 18px;
+	font-size: 16px;
+	font-family: 'Asap', sans-serif;
 }
 
 .card a {
