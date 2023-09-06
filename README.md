@@ -1,2 +1,2 @@
 # personal-website
-Repository for my website. [My Website](https://amolinae.com)
+Repository for [my website](https://amolinae.com).
