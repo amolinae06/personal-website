@@ -22,10 +22,33 @@
 body {
 	color: white;
 	background: rgb(5, 5, 5);
+	background: linear-gradient(130deg, #769BB6, #83A8C3, #8FAEC3);
+	background-size: 1000% 1000%;
+	position : static;
+
+	-webkit-animation: container 16s ease infinite;
+	-moz-animation: container 16s ease infinite;
+	animation: container 16s ease infinite;
+}
+
+@-webkit-keyframes container {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes container {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes container {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
 }
 
 h1 {
-	background: linear-gradient(-45deg, #6355a4, #6355a4, #e89a3e, #e89a3e);
+	background: linear-gradient(-45deg, #BBC1BD, #D4D7CC, #C3C8C1);
 	background-size: 300%;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -76,7 +99,7 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	padding: 8px;
-	background-color: rgb(34, 34, 34);
+	background-color: #c4bfb3;
 	color: #fff;
 }
 
