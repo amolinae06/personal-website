@@ -1,7 +1,6 @@
-@keyframes animated_title {
-	0% { background-position: 0px 50%; }
-	50% { background-position: 100% 50%; }
-	100% { background-position: 0px 50%; }
+@font-face {
+    font-family: "lambda";
+    src: url("/assets/fonts/lambda.ttf");
 }
 
 * {
@@ -23,9 +22,6 @@ h1 {
 	background-size: 300%;
 	padding: 20px;
 	text-transform: uppercase;
-	animation: animated_title 10s ease-in-out infinite;
-	-moz-animation: animated_title 10s ease-in-out infinite;
-	-webkit-animation: animated_title 10s ease-in-out infinite;
 	text-align: center;
 	font-family: 'Merriweather Sans', sans-serif;
 }
@@ -71,7 +67,7 @@ a {
 }
 
 /*CTR EFFECT*/
-  .crt::after {
+.crt::after {
 	content: " ";
 	display: block;
 	position: absolute;
@@ -85,7 +81,8 @@ a {
 	pointer-events: none;
 	animation: flicker 0.15s infinite;
   }
-  .crt::before {
+
+.crt::before {
 	content: " ";
 	display: block;
 	position: absolute;
@@ -98,7 +95,8 @@ a {
 	background-size: 100% 2px, 3px 100%;
 	pointer-events: none;
   }
-  .crt {
+
+.crt {
 	animation: textShadow 1.6s infinite;
   }
 
@@ -125,7 +123,7 @@ a {
 }
 
 .link:hover {
-	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #a1ce00, 0 0 40px #c0e200, 0 0 50px #e99700, 0 0 60px #e68a00, 0 0 70px #e66f00;
+	text-shadow: 0 0 10px #fff, 0 0 20px #ffd17c, 0 0 30px #feb938, 0 0 40px #ffb01d, 0 0 50px #ffa600, 0 0 60px #b66d00, 0 0 70px #b66d00;
 }
 
 .card {
@@ -197,7 +195,7 @@ a {
 	}
 }
   
-  @media (orientation: portrait) {
+@media (orientation: portrait) {
 	h1 {
 		font-size: 36px;
 	}
