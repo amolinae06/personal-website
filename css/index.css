@@ -66,14 +66,41 @@ a {
     color: white;
 }
 
-.content {
-	position: relative;
-	z-index: 4;
-}
-
 #particles-js {
 	z-index: -1;
 }
+
+/*CTR EFFECT*/
+  .crt::after {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(18, 16, 16, 0.1);
+	opacity: 0;
+	z-index: 2;
+	pointer-events: none;
+	animation: flicker 0.15s infinite;
+  }
+  .crt::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+	z-index: 2;
+	background-size: 100% 2px, 3px 100%;
+	pointer-events: none;
+  }
+  .crt {
+	animation: textShadow 1.6s infinite;
+  }
 
 /*NAVBAR*/
 .navbar {
@@ -84,7 +111,7 @@ a {
 	padding: 4px;
 	background-color: #ff802a;
 	color: #fff;
-	z-index: 2;
+	z-index: 4;
 	position: relative;
 }
 
@@ -104,20 +131,22 @@ a {
 /*PROFILE AND HEADER*/
 .profile {
 	display: block;
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 50%;
-	box-shadow: 1px 1px 10px #feb938;;
-	z-index: 4;
+	box-shadow: 2px 2px 10px #feb938;;
+	z-index: 1;
 }
 
 .contact {
 	padding-top: 30px;
 	padding-bottom: 5px;
 	display: block;
+	position: relative;
 	text-align: center;
 	word-spacing: 15px;
-	z-index: 4;
+	z-index: 2;
 }
 
 /*ICONS*/
@@ -143,7 +172,7 @@ a {
 	}
 
 	.profile {
-		height:	auto;
+		height:	300px;
 		width: 300px;
 		border: 5px solid #feb938;
 	}
@@ -153,7 +182,7 @@ a {
 	}
 
 	.quote {
-		font-size: 11px;
+		font-size: 14px;
 	}
 }
   
@@ -162,7 +191,7 @@ a {
 		font-size: 36px;
 	}
 	.profile {
-		height:	auto;
+		height:	225px;
 		width: 225px;
 		border: 4px solid #feb938;
 	}
@@ -172,6 +201,6 @@ a {
 	}
 
 	.quote {
-		font-size: 8px;
+		font-size: 12px;
 	}
 }
