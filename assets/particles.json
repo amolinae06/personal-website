@@ -39,12 +39,57 @@
 				"src": "assets/uiparticles/run.png",
 				"width": 100,
 				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/granade.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/shotgun.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/jalopy.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/slam.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/hearth.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/battery.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/medkit.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/alyxgun.png",
+				"width": 100,
+				"height": 100
+			},
+			{
+				"src": "assets/uiparticles/radiation.png",
+				"width": 100,
+				"height": 100
 			}
 		]
 	  },
 	  "opacity": {
 		"value": 0.8,
-		"random": false,
+		"random": true,
 		"anim": {
 		  "enable": false,
 		  "speed": 1,
