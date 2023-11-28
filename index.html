@@ -10,11 +10,13 @@
 </head>
 <body>
 	<header>
+		<audio id='RollOver' src='assets/sound/ui/buttonrollover.wav'></audio>
+		<audio id='ClickOver' src='assets/sound/ui/buttonclickrelease.wav'></audio>
 	<div class="navbar">
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="https://music.amolinae.com">Music</a></li>
-		</ul>	
+			<li><a href="index.html" onmouseover="PlayRollSound('RollOver');" onclick="PlayClickSound('ClickOver')">Home</a></li>
+			<li><a href="https://music.amolinae.com"  onmouseover="PlayRollSound('RollOver')" onclick="PlayClickSound('ClickOver')">Music</a></li>
+		</ul>
 	</div>
 	</header>
 	<div id="particles-js">
