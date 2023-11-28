@@ -34,10 +34,6 @@ h2 {
 	font-size: 48px;
 }
 
-li {
-	list-style: none;
-	}
-
 p {
 	color: #feb938;
 	text-shadow: 1px 1px 10px #feb938;
@@ -97,30 +93,47 @@ a {
 
 /*NAVBAR*/
 .navbar {
-	text-align: left;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 4px;
-	background-color: #ff802a;
-	color: #fff;
-	z-index: 4;
 	position: relative;
+	z-index: 2;
 }
 
-.logo {
-	height: 50px;
-	width: 50px;
+.navbar ul {
+	list-style-type: none;
+	overflow: hidden;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	width: 100%;
 }
 
-.link {
-	transition: text-shadow 0.5s ease-out 50ms
+.navbar li {
+	display: inline;
+	float: left;
 }
 
-.link:hover {
-	text-shadow: 0 0 10px #fff, 0 0 20px #ffd17c, 0 0 30px #feb938, 0 0 40px #ffb01d, 0 0 50px #ffa600, 0 0 60px #b66d00, 0 0 70px #b66d00;
+.navbar a {
+	z-index: 2;
+	font-size: 24px;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
 }
 
+.navbar li a {
+	color: #a3741d;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.navbar li a:hover {
+	color: #feb938;
+	text-shadow: 1px 1px 10px #feb938;
+}
+
+/*Full Card*/
 .card {
 	z-index: 1;
 	position: absolute;
@@ -135,6 +148,7 @@ a {
 /*PROFILE AND HEADER*/
 .profile {
 	display: block;
+	background-color: #a06800;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
