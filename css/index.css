@@ -184,6 +184,22 @@ a {
 	font-family: 'Ubuntu', serif;
 }
 
+.bottom {
+	position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.bottom a {
+	z-index: 2;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #feb938;
+	text-decoration: none;
+	display: block;
+	padding: 8px;
+}
+
 @media (orientation: landscape) {
 	h1 {
 		font-size: 60px;
@@ -220,5 +236,11 @@ a {
 
 	.quote {
 		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar a {
+		font-size: 18px;
 	}
 }
